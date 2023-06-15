@@ -6,12 +6,11 @@ import Footer from './footer';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from './navbar';
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 <div className='body'>
     <Navbar />
-    <div className='container'>
+    <div className='cardsc container'>
         <App />
     </div>
     <Footer />

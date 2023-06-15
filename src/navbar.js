@@ -7,14 +7,14 @@ function Navbar() {
     <nav class="nav-container">
             <ul class="nav-menu">
                 <li>
-                    <i class='paper'></i><a href="">Contact Us</a>
+                    <i class='paper'></i><a href="#contact">Contact Us</a>
                 </li> 
                 <li>
                     <a href="">Read More</a>
                 </li> 
             </ul>
     </nav>
-    <hr></hr>
+    <hr style={{ borderTop: '5px solid black' }} className='hrnav'></hr>
 </div>
   )
 }

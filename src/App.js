@@ -20,7 +20,7 @@ function App() {
    },[]);
   
   return (
-    <Row xs={'1'} sm={'2'}  xl={'5'} className="g-4 justify-content-md-center">
+    <Row xs={'1'} sm={'2'}  md={'3'} className="g-4 justify-content-center">
       {datas.map((user,id)=>(
         <Col key={id}>
           <Card className='cards'>
@@ -29,9 +29,12 @@ function App() {
             </div>
               <Card.Title className='card_title'> {user.name} </Card.Title>
               <Card.Subtitle className='card_subtitle'> {user.username} </Card.Subtitle>
+              <hr className='hrtitle'></hr>
             <Card.Body>
               <Card.Text><span className='bold_text'>City:</span> {user.address.city} </Card.Text>
+              <hr></hr>
               <Card.Text><span className='bold_text'>Company:</span> {user.company.name} </Card.Text>
+              <hr></hr>
               <Card.Text><span className='bold_text'>Website:</span><Card.Link href=''> {user.website}</Card.Link></Card.Text>
             </Card.Body>
           </Card>

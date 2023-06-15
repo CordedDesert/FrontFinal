@@ -2,21 +2,27 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 .body{
-    background-color: #DB504A;
+    background-color: #e5e5f7;
+
+background: repeating-linear-gradient( 45deg, #444cf7, #444cf7 5px, #e5e5f7 5px, #e5e5f7 25px );background-color: #DB504A;
 }
 /* NAV IZQUIERDA */
+
 
 .nav-container ul {
     display: flex;
     padding-right: 5px;
+    
 }
 
 .nav-menu li a{
     margin-top: 20px;
     padding: 10px;
     color: #fff ;
+    text-decoration: none;
 }
 
 .nav-menu li a:hover {
@@ -34,17 +40,21 @@
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    background-color: #AA2622;
+   background-color: #2f3640;
 }
 
 ul{
     list-style: none;
 }
-
+.hrnav{
+    margin: 10px;
+}
 /*Cards css */
 .cards.card{
     background-color: #084C61;
     transition: transform .5s ease-in-out;
+    height: auto;
+    width: auto;
     
 }
 .card_title{
@@ -53,47 +63,80 @@ ul{
     justify-content: center;
     color: white !important;
     padding-top:10px;
+
+}
+.card_subtitle.card-subtitle.h6{
+    font-size: 20px;
+}
+.card_title.card-title.h5{
+    font-size: 25px;
 }
 .card_subtitle{
     display: flex;
     align-items: center;
     justify-content: center;
     color: #616161;
+    font-size: 40px;
 }
 .card_text{
     display: flex;
     align-items: center;
     justify-content: center;
     color: white !important;
+    margin-top: -10px ;
 
 }
 .card-link{
     color: #fff !important;
+    text-decoration: none;
+    
+}
+.card-link:hover{
+    border-bottom:3px solid #fff;
 }
 
 .bold_text{
     font-weight: 700;
     color: white !important;
 }
+.hrtitle{
+    margin-top: 5px;
+}
 
+.card-body{
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+}
+.cardsc{
+    margin-bottom: 15px;
+}
 /*Footer css*/
 .footer{
     background: #2f3640;
     color: #616161;
     font-size: 10px;
-    align-items: center;
-    margin-top: 15px;
+    height: 200%;
 }
 
 .mb-3{
-    padding: 10px;
-    width: 35% !important;
-
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    margin-left: 45%;
+    font-size: 15px;
 }
 .form{
     list-style: none;
-    display: grid;
-    grid-template-columns: 1fr;
-    
 }
+.form.container{
+    margin: 0 0 0;
+    padding: 0 0 0;
+}
+.form-label{
+    margin-top: 20px;
+
+}
+
+
 
