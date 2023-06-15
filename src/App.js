@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 import Row from 'react-bootstrap/Row'
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
-import Footer from './footer';
 
 function App() {
 

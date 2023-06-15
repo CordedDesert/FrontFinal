@@ -1,5 +1,5 @@
 import React from 'react'
-import {paper} from 'react-bootstrap-icons';
+
 
 function Navbar() {
   return (
@@ -10,7 +10,7 @@ function Navbar() {
                     <i class='paper'></i><a href="#contact">Contact Us</a>
                 </li> 
                 <li>
-                    <a href="">Read More</a>
+                    <a href="#contact">Read More</a>
                 </li> 
             </ul>
     </nav>
