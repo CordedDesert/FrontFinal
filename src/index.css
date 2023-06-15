@@ -70,10 +70,13 @@ ul{
 
 }
 .card_subtitle.card-subtitle.h6{
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    color:#e7b6b4 ;
 }
 .card_title.card-title.h5{
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: 900;
 }
 .card_subtitle{
     display: flex;
@@ -82,8 +85,8 @@ ul{
     color: #616161;
     font-size: 40px;
 }
-#text{
-    color: #DB504A;
+.text{
+    color:#e7b6b4 ;
 }
 .card_text{
     display: flex;
@@ -121,7 +124,7 @@ ul{
 /*Footer css*/
 .footer{
     background: #2f3640;
-    color: #616161;
+    color: white;
     font-size: 10px;
     height: 200%;
 }
@@ -132,6 +135,7 @@ ul{
     text-align: center;
     margin-left: 45%;
     font-size: 15px;
+
 }
 .form{
     list-style: none;
@@ -142,7 +146,12 @@ ul{
 }
 .form-label{
     margin-top: 20px;
-
+    font-weight: 900px;
+}
+.button{
+    margin: 15px;
+    background-color: blue;
+    color: black;
 }
 
 

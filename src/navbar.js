@@ -4,10 +4,10 @@ import React from 'react'
 function Navbar() {
   return (
 <div>
-    <nav class="nav-container">
-            <ul class="nav-menu">
+    <nav className="nav-container">
+            <ul className="nav-menu">
                 <li>
-                    <i class='paper'></i><a href="#contact">Contact Us</a>
+                    <a href="#contact">Contact Us</a>
                 </li> 
                 <li>
                     <a href="#contact">Read More</a>

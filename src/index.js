@@ -13,7 +13,9 @@ root.render(
     <div className='cardsc container'>
         <App />
     </div>
+    <div>
     <Footer />
+    </div>
 </div>
 );
 

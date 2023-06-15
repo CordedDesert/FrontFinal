@@ -30,13 +30,13 @@ function App() {
               <Card.Subtitle className='card_subtitle'> {user.username} </Card.Subtitle>
               <hr className='hrtitle'></hr>
             <Card.Body>
-              <Card.Text><span className='bold_text'>Email:</span> {user.email} </Card.Text>
+              <Card.Text><span className='bold_text'>Email:</span> <span className="text"> {user.email}</span> </Card.Text>
               <hr></hr>
-              <Card.Text><span className='bold_text'>City:</span> {user.address.city} </Card.Text>
+              <Card.Text><span className='bold_text'>City:</span> <span className="text"> {user.address.city}</span> </Card.Text>
               <hr></hr>
-              <Card.Text><span className='bold_text'>Company:</span> {user.company.name} </Card.Text>
+              <Card.Text><span className='bold_text'>Company:</span> <span className="text"> {user.company.name}</span> </Card.Text>
               <hr></hr>
-              <Card.Text><span className='bold_text'>Website:</span><Card.Link href=''> {user.website}</Card.Link></Card.Text>
+              <Card.Text><span className='bold_text'>Website:</span><Card.Link href=''> <span className="text"> {user.website}</span></Card.Link></Card.Text>
             </Card.Body>
           </Card>
         </Col>

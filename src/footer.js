@@ -1,3 +1,4 @@
+import { Button } from 'bootstrap';
 import React from 'react'
 import Form from 'react-bootstrap/Form';
 
@@ -13,6 +14,9 @@ function Footer() {
       <Form.Group className="mb-3 lg-4" controlId="exampleForm.ControlTextarea1">
         <Form.Label>Example textarea</Form.Label>
         <Form.Control as="textarea" rows={3} />
+        <button type="button" className="button">
+        Send
+      </button>
       </Form.Group>
     </Form>  
     </div>
